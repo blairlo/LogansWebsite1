@@ -42,7 +42,7 @@ plotRGB(img2, stretch="lin")
 ![](/images/Mosaic/img2.png)
 
 ### View Mask
-The first layer of this (planet labs) mask includes "total usable pixels" which is an aggrigate of clouds, haze, and snow.
+The first layer of this (planet labs) mask includes "total usable pixels" which is an aggrigate of clouds, haze, and snow. 1 is a clear pixel and 0 is not.
 
 ```r
 mask1<-raster::stack("masks/1852708_1653019_2018-11-16_101e_udm2.tif")
