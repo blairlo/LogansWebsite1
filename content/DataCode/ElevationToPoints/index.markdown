@@ -148,4 +148,4 @@ map3<-#make map
 map3
 ```
 
-![](/images/Elevation//img2.png)
+![](/images/Elevation/img2.png)
