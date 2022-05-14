@@ -46,7 +46,7 @@ tm_shape(ndvi) +
   tm_raster( title = "NDVI")
 ```
 
-![alt text here](/post/ElevationToPoints/img1.png)
+![](/images/PlanetExtract/img1.png)
 
 ###**Extract Average Index Value by Parcel as Function**
 

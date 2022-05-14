@@ -52,7 +52,7 @@ plot(mask1[[1]])
 plot(mask2[[1]])
 ```
 
-![](/images/Mosaic/mask2.png)
+![](/images/Mosaic/mask1.png)
 ![](/images/Mosaic/mask2.png)
 
 The following function helps mosaic, merge, and reclassify values of a list of rasters. 
