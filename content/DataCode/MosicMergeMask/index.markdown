@@ -37,6 +37,10 @@ img2<-raster::stack("images/c1852708_1653119_2018-11-16_101e_BGRN_SR.tif")
 plotRGB(img1, stretch="lin")
 plotRGB(img2, stretch="lin")
 ```
+
+![](/images/Mosaic/img1.png)
+![](/images/Mosaic/img2.png)
+
 ### View Mask
 The first layer of this (planet labs) mask includes "total usable pixels" which is an aggrigate of clouds, haze, and snow.
 
@@ -47,6 +51,10 @@ mask2<-raster::stack("masks/1852708_1653119_2018-11-16_101e_udm2.tif")
 plot(mask1[[1]])
 plot(mask2[[1]])
 ```
+
+![](/images/Mosaic/mask2.png)
+![](/images/Mosaic/mask2.png)
+
 The following function helps mosaic, merge, and reclassify values of a list of rasters. 
 
 ```r
@@ -101,6 +109,8 @@ CompositeImage<-MosaicReclassRaster("images",
 plotRGB(CompositeImage, stretch="lin")
 ```
 
+![](/images/Mosaic/Compimg.png)
+
 ### Mosaic Mask
 After masking, clouds are now simply NA, and will not confound the remainder of the analysis
 
@@ -116,3 +126,6 @@ masked_composite<-mask(CompositeImage,
 
 plotRGB(masked_composite, stretch="lin")
 ```
+
+![](/images/Mosaic/MaskedComp.png)
+
