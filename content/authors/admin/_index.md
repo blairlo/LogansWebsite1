@@ -2,27 +2,27 @@
 bio: My research applies...
 education:
   courses:
-  - course: PhD Candidate in Public Policy
+  - course: PhD, Public Policy
     institution: University of Arizona
-    year: 2018 - Current
-  - course: MS Natural Resource Management
+    year: 2023
+  - course: MS, Natural Resource Management
     institution: Central Washington University
     year: 2015
-  - course: BS in Economics
+  - course: BS, Economics
     institution: Central Washington University
     year: 2013
-email: blairlo@email.arizona.edu
+email: blairlo@arizona.edu
 highlight_name: true
 interests:
-- Natural Disaster Resilience
-- Environmental Justice
+- Natural Disaster Adaptation
 - Agency Performance
+- Environmental Justice
 - Causal Inference
 - Remote Sensing and GIS
 organizations:
-- name: University of Arizona SGPP
-  url: https://sgpp.arizona.edu/
-role: Lecturer and Research Assistant
+- name: University of Washington SMEA
+  url: https://smea.uw.edu/
+role: Postdoc Researcher
 social:
 - icon: envelope
   icon_pack: fas
@@ -45,6 +45,6 @@ social:
 title: Logan Blair
 ---
 
-I am a PhD candidate, researcher, and instructor in the school of Government and Public Policy at the University of Arizona, and previously a consultant at the natural resource consulting firm Northern Economics. My research is broadly focused on natural disaster adaptation and resilience, with a current focus on US hurricane policy and emergency management performance. My work transects the fields of economics, public administration, and physical geography, and often leverages remote sensing and machine learning techniques that you can read more about in my {{< staticref "/research" >}}Research Section{{< /staticref >}}. Outside of work, you can find me hiking, biking, and camping in the Tucson mountains, or cooking (badly) in my trailer-mounted wood fired oven.
+I am a Postdoctoral Researcher in the School of Marine and Environmental Affairs at The University of Washington, and previously a consultant at the natural resource consulting firm Northern Economics. My research is broadly centered on natural disaster adaptation and resilience, with a current focus on US hurricane policy and emergency management performance. My work transects the fields of economics, public administration, and physical geography, and often leverages remote sensing and machine learning techniques that you can read more about in my {{< staticref "/research" >}}Research Section{{< /staticref >}}. Outside of work, you can find me hiking, biking, and camping in the Tucson mountains, or cooking (badly) in my trailer-mounted wood fired oven. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
